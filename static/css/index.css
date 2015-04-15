@@ -46,6 +46,7 @@ header{
 
 .recommend{
 	width: 100%;
+	margin-top: 20px;
 }
 
 #big-btn{
@@ -53,7 +54,7 @@ header{
 	width: 200px;
 	height: 200px;
 	border-style: none;
-	margin: 10px auto;
+	margin: 30px auto;
 	border-radius: 50%;
 	background-color: #2E5AA9;
 	color: #fff;

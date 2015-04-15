@@ -22,9 +22,10 @@ a,a:hover,a:active{
 
 footer{
 	width: 100%;
+	max-width: 680px;
 	height: 60px;
-/*	position: fixed;
-	bottom: 0;*/
+	position: fixed;
+	bottom: 0;
 }
 
 .nav{
@@ -36,8 +37,12 @@ footer{
 
 .nav li{
 	display: inline-block;
-	width: 25%;
+	width: 24%;
 	height: inherit;
+}
+
+.nav li.active{
+	background-color: #444;
 }
 
 .nav a{
@@ -48,5 +53,9 @@ footer{
 	line-height: 60px;
 	color: #fff;
 	font-size: 1.4em;
+}
+
+.nav a:hover{
+	font-size: 1.5em;
 }
 
