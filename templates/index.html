@@ -1,9 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>主页-一点配-时尚搭衣指南</title>
+	<link rel="stylesheet" type="text/css" href="../static/css/base.css">
+	<link rel="stylesheet" type="text/css" href="../static/css/index.css">
 </head>
 <body>
-
+	<div class="container">
+		<header>
+			<img class="head-icon" src="../static/images/head.jpg">
+			<p class="greet">中午好，XXX</p>
+			<p class="place">[武汉]</p>
+			<img class="place-icon" src="../static/images/gps.png">
+		</header>
+		<div class="content">
+			<table class="weather">
+				<tr>
+					<td>
+						<img src="../static/images/cloudy2.png">
+					</td>
+					<td>
+						<p id="date"></p>
+						<p>20~8℃多云，微风</p>
+					</td>
+				</tr>
+			</table>
+			<p class="recommend">推荐穿衣：短袖+衬衫+薄外套+牛仔裤+休闲板鞋，温差较大，要适当增减衣服~</p>
+			<button id="big-btn">给我配</button>
+		</div><!--content-->
+		<footer>
+			<ul class="nav">
+				<li><a href="index.html">主页</a></li>
+				<li><a href="#">社区</a></li>
+				<li><a href="#">衣柜</a></li>
+				<li><a href="#">推荐</a></li>
+			</ul>
+		</footer>
+	</div><!--container-->
+	<script type="text/javascript" src="../static/js/index.js"></script>
 </body>
 </html>

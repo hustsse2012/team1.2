@@ -1,0 +1,62 @@
+header{
+	width: 100%;
+	height: 60px;
+	background-color: #fff;
+	font-size: 1.3em;
+}
+
+.head-icon{
+	height: 56px;
+	width: 56px;
+	float: left;
+}
+
+.greet{
+	height: 60px;
+	width: 40%;
+	line-height: 60px;
+	float: left;
+	margin-left: 10px;
+}
+
+.place{
+	height: 60px;
+	width: 60px;
+	line-height: 60px;
+	float: right;
+	margin-right: 5px;
+}
+
+.place-icon{
+	height: 56px;
+	width: auto;
+	float: right;
+	margin-right: 10px;
+}
+
+.content{
+	box-sizing:border-box;
+	-webkit-box-sizing:boder-box;
+	-moz-box-sizing:boder-box;
+	-o-box-sizing:boder-box;
+	width: 100%;
+	font-size: 1.3em;
+	padding: 20px;
+}
+
+.recommend{
+	width: 100%;
+}
+
+#big-btn{
+	display: block;
+	width: 200px;
+	height: 200px;
+	border-style: none;
+	margin: 10px auto;
+	border-radius: 50%;
+	background-color: #2E5AA9;
+	color: #fff;
+	font-size: 2em;
+	outline: none;
+}
