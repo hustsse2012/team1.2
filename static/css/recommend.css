@@ -1,0 +1,30 @@
+.text{
+	padding: 20px 0 10px 60px;
+	font-size: 1.5em;
+	line-height: 40px;
+}
+
+.text input{
+	width: 70%;
+	height: 35px;
+	font-size: 0.8em;
+}
+
+img{
+	display: block;
+	width: 60%;
+	height:auto;
+	margin: 0 auto;
+}
+
+button{
+	display: block;
+	width: 35%;
+	height: 60px;
+	margin:10px auto;
+	color: #fff;
+	background: #2E5AA9;
+	font-size: 1.8em;
+	outline: none;
+	border-style: none;
+}
