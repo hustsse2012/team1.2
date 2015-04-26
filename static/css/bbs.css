@@ -1,0 +1,28 @@
+.img-container{
+	width: 100%;
+	margin: 0 auto;
+	float: left;
+	background-color: #fff;
+}
+
+.img-container .img-top{
+	width: 100%;
+	height: auto;
+}
+
+.img-container .img-nether{
+	width: 100%;
+	height: auto;
+	float: left;
+	padding-bottom: 3px;
+}
+
+.img-container .left{
+	width: 49.5%;
+	float: left;
+}
+
+.img-container .right{
+	width: 50%;
+	float: right;
+}
