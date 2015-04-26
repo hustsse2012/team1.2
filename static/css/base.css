@@ -39,6 +39,7 @@ footer{
 	display: inline-block;
 	width: 25%;
 	height: inherit;
+	margin: 0 -2px;
 }
 
 .nav li.active{
